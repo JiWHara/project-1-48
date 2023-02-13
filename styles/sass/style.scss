@@ -1,6 +1,13 @@
-@use 'blog';
+@use 'global';
 @use 'header';
 @use 'footer';
-@use 'global';
 @use 'home';
+@use 'blog';
 @use 'contact';
+
+$black: #2E2E2E;
+$brownGrey: #999999;
+$white: #f6f6f6;
+$blackTwo: #333333;
+$green: #64a604;
+$secondaryGreen: #DDED9A;
