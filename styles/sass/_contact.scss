@@ -1,0 +1,83 @@
+.messageText{
+    height: 30vh;
+    padding: 0 13px;
+    width: 32vw;
+    margin: 10px 0;
+    background-color: #f6f6f6;
+    color: #999999;
+    font-size:0.8rem;
+    font-family: 'Lato', serif;
+    resize:none;
+    border:0;
+}
+.subjectText{
+    height: 5vh;
+    padding: 0 13px;
+    width: 32vw;
+    margin: 10px 0;
+    background-color: #f6f6f6;
+    color: #999999;
+    font-size:0.8rem;
+    font-family: 'Lato', serif;
+    resize:none;
+    border:0;
+}
+form {
+    border-style: none;
+}
+div {
+    border-style: none;
+}
+
+
+header.contactHeader{
+    height: 100vh;
+    padding: 0px 2vw;
+    background: url("../assets/contact-1.jpeg") center;
+    background-size: cover;
+    nav ul {
+      display: flex;
+      list-style-type: none;
+      gap: 2vw;
+      font-family: 'Raleway',sans-serif;
+      a{
+          text-decoration: none;
+          color: #2E2E2E;
+      }
+    }
+    h1 {
+      font-family: 'Raleway',sans-serif;
+      font-size: 2.3rem;
+    }
+    .currentPage {
+      color: #64a604;
+    }
+  }
+
+  .contactSection {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    width:fill;
+  }
+  .yourName{
+    height: 40px;
+    padding: 0 13px;
+    width: 16vw;
+    margin: 10px 0;
+    border:0;
+    background-color: #f6f6f6;
+    color: #999999;
+    font-size:0.8rem;
+    font-family: 'Lato', serif;
+  }
+
+  h3{
+    color:#64a604;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+  }
+  .contactImage{
+    width:100%;
+    height:0 auto;
+  }

@@ -232,13 +232,7 @@ html {
   text-decoration: none;
 }
 
-header {
-  height: 100vh;
-  padding: 0px 2vw;
-  background: url("../assets/home-1.jpeg") center;
-  background-size: cover;
-}
-header .wrapper {
+.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,7 +240,29 @@ header .wrapper {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header nav ul {
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: "Lora", sans-serif;
+  font-size: 0.7rem;
+  color: #333333;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+}
+
+header.homeHeader {
+  height: 100vh;
+  padding: 0px 2vw;
+  background: url("../assets/home-1.jpeg") center;
+  background-size: cover;
+}
+header.homeHeader nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,14 +270,364 @@ header nav ul {
   gap: 2vw;
   font-family: "Raleway", sans-serif;
 }
-header nav ul a {
+header.homeHeader nav ul a {
   text-decoration: none;
-  color: black;
+  color: #2E2E2E;
 }
-header h1 {
+header.homeHeader h1 {
   font-family: "Raleway", sans-serif;
   font-size: 2.3rem;
 }
-header .currentPage {
-  color: #1DB954;
+header.homeHeader .currentPage {
+  color: #64a604;
+}
+
+footer {
+  background-color: #333333;
+}
+footer fieldset {
+  border: none;
+  text-align: left;
+}
+
+footer section div h2 {
+  color: #64a604;
+  font-size: 2.5rem;
+}
+footer section div h3 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+}
+footer section div p {
+  color: #999999;
+  letter-spacing: 0.3px;
+}
+
+.enterYourEmail {
+  height: 40px;
+  padding: 0 13px;
+  width: 16vw;
+  margin: 10px 0;
+  border: 0;
+  background-color: #999999;
+  color: white;
+  font-size: 0.8rem;
+  font-family: "Lato", serif;
+}
+
+.footerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 4vh;
+}
+
+.footerWrapperPaddingFix {
+  padding: 0;
+}
+
+.greenText {
+  color: #64a604;
+}
+
+.footerWrapperMini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 10vw;
+  background: #2e2e2e;
+}
+
+.factsRecipes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 76vh;
+}
+
+.wrapperHome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+}
+
+.textContainer,
+.imageContainer {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-height: 40vh;
+}
+
+div.imageContainer img {
+  max-width: 50vw;
+  height: 76vh;
+}
+
+.textContainer {
+  padding: 9vw;
+  text-align: center;
+}
+
+div.textContainer h2 {
+  text-align: center;
+}
+
+.lineDivider {
+  color: #64a604;
+}
+
+.viewRecipesButton {
+  border-radius: 0;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: #f6f6f6;
+  background-color: #64a604;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+}
+
+div.wrapperHome div img {
+  width: 49.5vw;
+}
+
+div.listContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  background-color: #f6f6f6;
+  width: 50vw;
+}
+div.listContainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: space-evenly;
+      align-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+  padding-top: 8vh;
+}
+div.listContainer ul h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+}
+div.listContainer ul p {
+  color: #999999;
+}
+
+.ourRestaurantsColumn {
+  position: relative;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 10%;
+}
+
+.sittingArea {
+  position: relative;
+}
+
+.homeCircleText {
+  position: absolute;
+  top: 65px;
+  right: 440px;
+  height: 20vh;
+  width: 0 auto;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.galleryWrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+.galleryWrapper ul img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.hungryClients {
+  background-color: #dded9a;
+}
+
+header.blogHeader {
+  height: 100vh;
+  padding: 0px 2vw;
+  background: url("../assets/blog-1.jpeg") center;
+  background-size: cover;
+}
+header.blogHeader nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  gap: 2vw;
+  font-family: "Raleway", sans-serif;
+}
+header.blogHeader nav ul a {
+  text-decoration: none;
+  color: #2E2E2E;
+}
+header.blogHeader h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.3rem;
+}
+header.blogHeader .currentPage {
+  color: #64a604;
+}
+
+.messageText {
+  height: 30vh;
+  padding: 0 13px;
+  width: 32vw;
+  margin: 10px 0;
+  background-color: #f6f6f6;
+  color: #999999;
+  font-size: 0.8rem;
+  font-family: "Lato", serif;
+  resize: none;
+  border: 0;
+}
+
+.subjectText {
+  height: 5vh;
+  padding: 0 13px;
+  width: 32vw;
+  margin: 10px 0;
+  background-color: #f6f6f6;
+  color: #999999;
+  font-size: 0.8rem;
+  font-family: "Lato", serif;
+  resize: none;
+  border: 0;
+}
+
+form {
+  border-style: none;
+}
+
+div {
+  border-style: none;
+}
+
+header.contactHeader {
+  height: 100vh;
+  padding: 0px 2vw;
+  background: url("../assets/contact-1.jpeg") center;
+  background-size: cover;
+}
+header.contactHeader nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  gap: 2vw;
+  font-family: "Raleway", sans-serif;
+}
+header.contactHeader nav ul a {
+  text-decoration: none;
+  color: #2E2E2E;
+}
+header.contactHeader h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.3rem;
+}
+header.contactHeader .currentPage {
+  color: #64a604;
+}
+
+.contactSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill;
+}
+
+.yourName {
+  height: 40px;
+  padding: 0 13px;
+  width: 16vw;
+  margin: 10px 0;
+  border: 0;
+  background-color: #f6f6f6;
+  color: #999999;
+  font-size: 0.8rem;
+  font-family: "Lato", serif;
+}
+
+h3 {
+  color: #64a604;
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+}
+
+.contactImage {
+  width: 100%;
+  height: 0 auto;
 }

@@ -1,0 +1,107 @@
+
+.factsRecipes {
+    display: flex;
+    height: 76vh;
+}
+.wrapperHome{   
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.textContainer,
+.imageContainer{
+    flex-grow: 1;
+    max-height: 40vh;
+}
+div.imageContainer img{
+        max-width: 50vw;
+        height: 76vh;
+}
+.textContainer {
+padding:9vw;
+text-align: center;
+}
+div.textContainer h2{
+    text-align: center;
+}
+.lineDivider{
+    color: #64a604;
+}
+.viewRecipesButton{
+    border-radius: 0;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color:#f6f6f6;
+    background-color: #64a604;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8rem;
+    
+}
+div.wrapperHome div img {
+    width:49.5vw
+}
+div.listContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    background-color:#f6f6f6;
+    width:50vw;
+    ul {
+        display:flex;
+        align-content: space-evenly;
+        flex-direction: column;
+        list-style-type: none;
+        padding-top: 8vh;
+        h3{
+            font-family: "Raleway", sans-serif;
+            font-size: 0.9rem;
+        }
+        p {
+            color: #999999;
+        }
+    }
+}
+
+.ourRestaurantsColumn{
+    position:relative;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding:10%;
+}
+.sittingArea{
+    position:relative;
+}
+.homeCircleText{
+    position: absolute;
+    top: 65px;
+    right: 440px;
+    height:20vh;
+    width: 0 auto;
+}
+.gallery {
+    display:flex;
+    flex-direction: row;
+
+}
+.galleryWrapper ul{
+    display: flex;
+    flex-direction: row;    
+    padding: 0;
+    margin:0;
+    img {
+        display:flex;
+        width:100%;
+    }
+}
+ul li {
+    list-style-type: none;
+}
+.italics {
+    font-style: italic;
+}
+.hungryClients {
+    background-color: #dded9a;
+}

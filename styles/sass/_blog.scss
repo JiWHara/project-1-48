@@ -1,0 +1,23 @@
+header.blogHeader{
+    height: 100vh;
+    padding: 0px 2vw;
+    background: url("../assets/blog-1.jpeg") center;
+    background-size: cover;
+    nav ul {
+      display: flex;
+      list-style-type: none;
+      gap: 2vw;
+      font-family: 'Raleway',sans-serif;
+      a{
+          text-decoration: none;
+          color: #2E2E2E;
+      }
+    }
+    h1 {
+      font-family: 'Raleway',sans-serif;
+      font-size: 2.3rem;
+    }
+    .currentPage {
+      color: #64a604;
+    }
+  }

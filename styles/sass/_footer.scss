@@ -1,0 +1,54 @@
+footer{
+    background-color:#333333;
+    
+fieldset{
+    border: none;
+    text-align: left;
+  }
+
+}
+footer section div{
+    h2{
+        color:#64a604;
+        font-size: 2.5rem;
+    }
+    h3{
+        color:white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9rem;
+    }
+    p {
+        color:#999999;
+        letter-spacing: 0.3px;
+    }
+}
+
+.enterYourEmail{
+    height: 40px;
+    padding: 0 13px;
+    width: 16vw;
+    margin: 10px 0;
+    border:0;
+    background-color: #999999;
+    color: white;
+    font-size:0.8rem;
+    font-family: 'Lato', serif;
+}
+.footerWrapper {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 4vh;
+}
+.footerWrapperPaddingFix{
+    padding: 0;
+}
+.greenText {
+    color:#64a604
+}
+.footerWrapperMini {
+    display:flex;
+    flex-direction: row;
+    padding-left: 10vw;
+    background: #2e2e2e;
+}
