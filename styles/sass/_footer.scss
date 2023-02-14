@@ -1,5 +1,5 @@
 footer{
-    background-color:#333333;
+    background-color:$blackTwo;
     
 fieldset{
     border: none;
@@ -13,12 +13,12 @@ footer section div{
         font-size: 2.5rem;
     }
     h3{
-        color:white;
+        color:$white;
         font-family: 'Raleway', sans-serif;
         font-size: 0.9rem;
     }
     p {
-        color:#999999;
+        color:$brownGrey;
         letter-spacing: 0.3px;
     }
 }
@@ -29,8 +29,8 @@ footer section div{
     width: 16vw;
     margin: 10px 0;
     border:0;
-    background-color: #999999;
-    color: white;
+    background-color: $brownGrey;
+    color: $white;
     font-size:0.8rem;
     font-family: 'Lato', serif;
 }
@@ -50,5 +50,5 @@ footer section div{
     display:flex;
     flex-direction: row;
     padding-left: 10vw;
-    background: #2e2e2e;
+    background: $black;
 }

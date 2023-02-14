@@ -3,8 +3,8 @@
     padding: 0 13px;
     width: 32vw;
     margin: 10px 0;
-    background-color: #f6f6f6;
-    color: #999999;
+    background-color: $white;
+    color: $brownGrey;
     font-size:0.8rem;
     font-family: 'Lato', serif;
     resize:none;
@@ -15,8 +15,8 @@
     padding: 0 13px;
     width: 32vw;
     margin: 10px 0;
-    background-color: #f6f6f6;
-    color: #999999;
+    background-color: $white;
+    color: $brownGrey;
     font-size:0.8rem;
     font-family: 'Lato', serif;
     resize:none;
@@ -42,7 +42,7 @@ header.contactHeader{
       font-family: 'Raleway',sans-serif;
       a{
           text-decoration: none;
-          color: #2E2E2E;
+          color: $black;
       }
     }
     h1 {
@@ -66,8 +66,8 @@ header.contactHeader{
     width: 16vw;
     margin: 10px 0;
     border:0;
-    background-color: #f6f6f6;
-    color: #999999;
+    background-color: $white;
+    color: $brownGrey;
     font-size:0.8rem;
     font-family: 'Lato', serif;
   }
