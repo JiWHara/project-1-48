@@ -11,11 +11,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Raleway:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script src="script.js"></script>
+    
+
+
     <header class="homeHeader">
         <div class="wrapper">
             <h1>DELICIOUS</h1>
             <nav>
                 <ul>
+                    <li>
+                        <button id="openBtn" class="openBtn"> Click Here to Subscribe</button>
+                        <div class="modal" id="myModal">
+                            <div class="modalContent">
+                                <h1>Subscribe</h1>
+                                <p>
+                                    Please enter your email in the form and press the submit button to subscribe.
+                                </p>
+                                <form id="subscribeForm">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <button type="submit">Submit</button>
+                                    
+                                  </form>
+                                  <button type="submit" class="close">
+                                    X
+                                </button>
+                            </div>
+                        </div>
+                    </li>
                     <li>
                         <a href="./index.html" class="currentPage">HOME</a>
                     </li>
@@ -45,6 +69,7 @@
                     </li>
                 </ul>
             </nav>
+
         </div>
     </header>
     <main>
